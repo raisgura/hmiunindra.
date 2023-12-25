@@ -1,86 +1,67 @@
-*,htmla{
-    margin: 0;
-    padding: 0;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-   
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
-.navbar-container{
-    background-color: blueviolet;
-    width: 100%;
-    height: 10vh;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.ul-navbar{
-display:flex;
-height: 100px;
-justify-content:center ;
-align-items:center ;
+/* Navbar styling */
+.navbar-container {
+  background-color: #333;
+  padding: 10px;
 }
 
-.li-navbar{
-list-style: none;
-padding: 20px;
-margin: 5px;
-color:rgb(0, 0, 0) ;
-font-size: 20px;
+.ul-navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
-.li-navbar:hover {
-background-color: brown;
-transition: .5s ease-in-out ;
-transition-delay: .3s;
-border-radius: 8px;
+.li-navbar {
+  display: inline-block;
 }
 
-.a-navbar{
-color: white; 
-text-decoration: none;   
-font-weight: 800;
+.a-navbar {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
-.container-content{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:80vh;
+/* Content styling */
+.container-content {
+  margin-top: 20px;
 }
 
 .a-content {
-    background-color: blueviolet ;
-    color: black;
-    text-decoration: none;
-    font-size: 30px;
-    width: 420px;
-    height: 280px;
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius:80px ;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.img-content{
-  width: 30%;
-  height: 30%;  
+.img-content {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
-.container-froter{
-    height: 10vh;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.h1-froter{
-    font-size: 30px;
-    color:white ;
-
+/* Footer styling */
+.container-footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
