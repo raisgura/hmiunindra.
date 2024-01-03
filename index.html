@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>hmi</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="process_contact_form.php">
+</head>
+<body>
+   <header>
+       <div class="header-content">
+           <div class="logo-container">
+               <img src="Lambang_HMI_(Original).png" alt="Logo Organisasi XYZ">
+           </div>
+           <h1 class="uiui">HIMPUNAN MAHASISWA ISLAM UNIVERSITAS INDRAPTASTA PGRI <p class="uiu">Komisariat UNINDRA Cabang jakarta selatan 2023-2024 </p> </h1>
+           </div>
+           <input type="checkbox" id="menu-toggle">
+           <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+           <nav>
+               <ul class="navigation-list">
+                  <li><a href="#home">Beranda</a></li>
+                  <li><a href="#about">Kami</a></li>
+                  <li><a href="#projects">Program</a></li>
+                  <li><a href="#contact">Kontak</a></li>
+              </ul>           
+           </nav>
+   </header>
+   
+   <section id="home">
+       <h2>Selamat datang di Himpunan Mahasiswa Islam</h2>
+       <p>Organisasi HMI Maka dari itu sesuai dengan AD HMI Pasal 4 HMI memiliki tujuan yaitu “Terbinanya Insan Akademis, Pencipta, Pengabdi, Yang Bernafaskan Islam dan Bertanggung Jawab Atas Terwujudnya Masyarakat Adil Makmur Yang Diridhoi Allah Subhanahu Wa Ta'ala”.</p>
+       <img src="ketumpb.jpg" alt="Gambar Halaman Beranda">
+   </section>
+   
+   <section id="about">
+       <h2>Tentang Kami</h2>
+       <p>Himpunan Mahasiswa Islam (HMI) adalah organisasi mahasiswa yang berbasis di Indonesia. Berikut ini adalah ringkasan singkat tentang HMI:</p>
+       <h4>Sejarah:</h4>
+       <p>HMI didirikan pada 5 Januari 1947 di Yogyakarta, Indonesia, sebagai respon terhadap situasi politik dan sosial saat itu.</p>
+       <p>Sejak pendiriannya, HMI telah aktif dalam berbagai gerakan dan peristiwa di Indonesia.</p>
+       <h4>Tujuan dan Misi:</h4>
+       <p>HMI memiliki tujuan untuk menciptakan pemimpin yang berkualitas, berintegritas, dan berkomitmen pada prinsip-prinsip Islam.</p>
+       <p>Misi HMI melibatkan pengembangan potensi mahasiswa, advokasi terkait kepentingan umat Islam, dan berperan dalam perbaikan sistem pendidikan di Indonesia.</p>
+       <h4>Struktur Organisasi:</h4>
+       <p>HMI memiliki struktur organisasi yang terdiri dari tingkat pusat hingga tingkat lokal di berbagai perguruan tinggi di Indonesia.</p>
+       <p>Ada kepengurusan yang dipilih secara demokratis untuk memimpin organisasi ini.</p>
+       <h4>Pengaruh Politik:</h4>
+       <p>HMI memiliki sejarah panjang keterlibatan dalam politik Indonesia.</p>
+       <p>Anggota HMI sering terlibat dalam berbagai gerakan politik dan memiliki pengaruh dalam lingkup politik nasional.</p>
+       <h4>Tantangan dan Kritik:</h4>
+       <p>Seperti organisasi lainnya, HMI juga menghadapi tantangan dan kritik, baik dari internal maupun eksternal, terkait dengan pendekatan mereka dalam berbagai isu dan peran politiknya</p>
+       <img src="lafran.jpg" alt="Gambar Halaman Beranda">
+   </section>
+   
+   <section id="projects">
+       <h2>Program/Proyek</h2>
+       <p>HMI mengadakan berbagai kegiatan, seperti seminar, lokakarya, dan kegiatan keagamaan untuk meningkatkan pemahaman mahasiswa terhadap Islam.</p>
+       <img src="lafrann.jpg" alt="Gambar Halaman Beranda">
+       <p>Organisasi ini juga terlibat dalam kegiatan sosial, advokasi hak-hak mahasiswa, dan upaya-upaya untuk meningkatkan kesejahteraan umat Islam.</p>
+       <img src="hmi-logo.png" alt="Gambar Halaman Beranda">
+   </section>
+   
+   <section id="contact">
+    <h2>Kontak Kami</h2>
+    <form action="process_contact_form.php" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subjek:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Kirim">
+    </form>
+</section>
+
+
+   <footer>
+       <p>&copy; 2024 Organisasi XYZ. Hak Cipta Dilindungi.</p>
+   </footer>
+</body>
+</html>
