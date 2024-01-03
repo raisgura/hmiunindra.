@@ -156,18 +156,17 @@ img {
 }
 
 /* Footer styles */
+
 footer {
-    background-color: #008000; /* Green footer background */
-    color: #ffffff; /* White text */
+    background-color: #0000000f; /* Green footer background */
+    color: #000000; /* White text */
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 10px;
 }
-
-
-
 
 
 /* Styling for the contact section */
